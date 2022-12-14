@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fafafa;
+    position: absolute;
+    background-size: cover;
+    height: auto;
+}
+#navigation > a:hover {
+    background: white;
+    color: var(--massalia-color);
+    padding: 4.7vh 1vw !important;
+}
+.dropdown:hover > a:hover + ul {
+    margin-top: 16px;
+}
+.dropdown > #desktop-nav:hover {
+    padding: 4.7vh 2vw !important;
+}
+footer {
+    position: relative !important;
+}
+footer > section > h1 {
+    font-weight: 500;
+}
+#links h2 {
+    font-weight: 500;
+}
+.top {
+    background-image: url(https://media.discordapp.net/attachments/1047046483402297419/1047816530466967642/palais-longchamp.jpg?width=2560&height=1440);
+    background-size: cover;
+    background-position: center;
+    height: 105vh ;
+    width: 100%;
+}
+.titre {
+    text-align: center;
+    font-size: 3.5em;
+    color: #fafafa;
+    font-weight: 600;
+    padding-top: 8%;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.9);
+    font-weight: 600;
+}
+.p-top {
+    text-align: justify;
+    padding-left: 8%;
+    width: 45%;
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+.p-left {
+    text-align: justify;
+    padding-left: 8%;
+    width: 45%;
+    padding-top: 50px;
+    padding-bottom: 8%;
+    font-size: 1.1em;
+}
+.p-right {
+    font-size: 1.1em;
+    padding-top: 50px;
+    width: 40%;
+    text-align: justify;
+    margin-left: 52%;
+}
+h3 {
+    padding-left: 8%;
+    padding-top: 100px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.h3-right {
+    padding-left: 52%;
+    padding-top: 70px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.parcs {
+    height: auto;
+}
+.h2-jardins {
+    padding-top: 10%;
+    padding-bottom: 2%f;
+    padding-left: 8%;
+    padding-bottom: 8%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+hr {    
+    margin-top: 10%;
+    width: 99.7%;
+    background: #696969;
+    border: 1px solid #696969;
+}
+.img-parc {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: -25%;
+    margin-left: 52%;
+    transition: 0.4s;
+}
+.img-parc-right {
+    margin-top: -20%;
+    width: 38%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 7.5%;
+    transition: 0.4s;
+}
+.img-parc-right-top {
+    margin-top: -15%;
+    width: 38%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 7.5%;
+    transition: 0.4s;
+}
+.img-parc:hover {
+    opacity: 0.4;
+}
+.img-parc-right:hover {
+    opacity: 0.4;
+}
+.img-parc-right-top:hover {
+    opacity: 0.4;
+}

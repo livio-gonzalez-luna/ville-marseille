@@ -1,0 +1,360 @@
+
+/*_____POLICE_____*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: white;
+}
+.header{
+    background-image: url(https://images.laprovence.com/media/2018/08/04/1533369169_fq-teteete_gu4p.jpg?twic=v1/focus=855x516.5/cover=1450x812);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
+
+/*______TITRE DE PAGE_____*/
+
+.titre_musee{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif ;
+    text-align: center;
+    padding-top: 1em;
+    padding-top: 1em;
+    font-size: 5em;
+}
+.waviy {
+    position: relative;
+}
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5em;
+    color: black;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+}
+
+
+
+
+.huit_musee{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 10px ;
+} 
+
+.musee1{
+    background-image: url('https://tourisme-handicaps.org/wp-content/uploads/FAQ-2653-MuCEM-J4-%C2%AE-Lisa-Ricciotti-1920x1080.jpg');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.musee2{
+    background-image: url('http://pointcontemporain.com/wp-content/uploads/2016/10/theo-mercier-the-thrill-is-gone-mac-marseille.jpg');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.musee3{
+    background-image: url('https://marseille.city-life.fr/images/fiche/347/1234.jpg');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.musee4{
+    background-image: url('https://www.citizenkid.com/uploads/medias/42/0a/420a8ad58c29899aba84b4d33c5ae4e3d7b06b99.jpeg');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.musee5{
+    background-image: url('https://i0.wp.com/www.enrevenantdelexpo.com/wp-content/uploads/2022/05/Le-meme-et-lautre-Objets-migrateurs-a-la-Vieille-Charite-%E2%80%93-Marseille.jpg?resize=696%2C441&ssl=1');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.musee6{
+    background-image: url('http://madeinmarseille.net/actualites-marseille/musee-histoire-marseille1.jpg');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.musee7{
+    background-image: url('https://gomet.net/wp-content/uploads/2021/06/img_3099-1024x768.jpg');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.musee8{
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/8e/74/c5/norton.jpg?w=1200&h=-1&s=1');
+    background-size:cover;
+    width: 46%;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+
+.descriptionMusee{
+    position: relative;
+    overflow: hidden;
+    transition: 0.8s;
+    width: 500px;
+    height: 400px;
+}
+
+.descriptionMusee .container-text{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.text{
+    position: absolute;
+    top: -150%;
+    transition: 0.9s;
+    background-color: rgba(4, 1, 1, 0.5);
+    height: 100%;
+    z-index: 9999;
+    font-size: 30px;
+    text-align: justify;
+    padding: 50px 25px 0 25px;
+    font-family: 'Actor', sans-serif;
+    color: white;
+}
+
+.title{
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s;
+    transition-delay: 0.4s;
+    height: 100px;
+    width: 100%;
+    z-index: 9999;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-shadow:  1px 1px 5px black;
+    font-size: 50px; 
+    color: RGB(255, 255, 255);
+    text-align:center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+.descriptionMusee:hover .text{
+    top: 0;
+}
+
+.descriptionMusee:hover .title{
+    bottom:-200px;
+}
+.descriptionMusee:hover label {
+    width: 248px;
+    height: 35px;
+    transition: 0.8s;
+    position: absolute;
+    top: 80%;
+    z-index: 99999;
+    left: 33%;
+    font-family: 'Actor', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+label {
+    position: absolute;
+    top:-150%;
+    width: 248px;
+    height: 100px;
+    bottom: 0px;
+    left: 33%;
+    font-family: 'Actor', sans-serif;
+    color: white;
+    font-size: 30px;
+    border: solid 2px white;
+}
+
+ label span {
+    transition: 0;
+ }
+
+ul{
+    list-style: none;
+    font-family: 'Gafata', sans-serif;
+    font-size: 20px;
+}
+
+
+.horaire{
+    height: 400px;
+    top: -322px;
+    position: absolute;
+    width: 700px;
+    left: -1000px;
+    z-index: 0;
+    transition: 1s;
+    background: white;
+}
+
+#info:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+
+#info1:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+
+#info2:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+#info3:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+
+#info4:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+
+#info5:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+
+#info6:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+
+#info7:checked + label .horaire {
+    left: -230px;
+    top: -322px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+    width: 700px;
+}
+
+
+
+#info, #info1, #info2, #info3, #info4, #info5, #info6, #info7{
+    display: none;
+}
+
+#to_return{
+    position: relative;
+    left: 40px;   
+}
+
+.mise_en_page_tarif{
+    display: flex;
+    
+}
+.tarif {
+    display: flex;
+    font-family:'Source Sans Pro', sans-serif ;
+}
+
+.h3{
+    width: 50%;
+}
+
+.tarif, .h3{
+    flex-direction: row;
+    font-size: 15px;
+    width: 100%;
+    text-align: justify;
+    padding-right: 5%;
+    margin-bottom: 5%;
+}
+
+.h2_tarif{
+    margin-top: 0.2em;
+    margin-left: 3%;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    width: 7%;
+    height: 45%;
+    font-size: 9em;
+    font-family: 'Source Sans Pro', sans-serif ;
+}

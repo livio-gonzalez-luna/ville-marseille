@@ -1,0 +1,565 @@
+/* -------------------------------------------------------------------------- */
+/* & GOOGLE FONTS */
+/* -------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/hollywood-hills');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* & --------------------------------------------------------------------------SECTION 1 MARSEILLE ET SON HISTOIRE */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.sct1 {
+    background: url('images-histoire/Marseille\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+
+}
+header {
+    display: flex;
+}
+
+.sct1 h2 {
+    margin-top: 22vh;
+    margin-left: 40vh;
+    color: whitesmoke;
+    font-size: 8.5vh;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -------------------------------------------------------------------------- */
+/*  ~Bandeau section 1 */
+/* -------------------------------------------------------------------------- */
+
+.bandeau {
+    background: url('images-histoire/motif-circulaire-sur-fond-bleu-fond-d-ecran-2560x1080_14.jpg');
+    width: 232.4%;
+    margin-left: -50vh;
+    padding-left: 50vh;
+    height: 25vh;
+    color: white;
+    overflow: hidden;
+}
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* & --------------------------------------------------------------------------SECTION 2 IDENTITE */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.sct2 {
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    margin-bottom: 10vh;
+    float: left;
+
+}
+
+.sct2 .left {
+    padding: 3em;
+}
+
+.sct2 h1 {
+    font-size: 3em;
+    text-shadow: .5px .5px 1px black;
+}
+
+.sct2 h2 {
+    font-size: 3vh;
+}
+
+.sct2 ul {
+    margin-top: 2.5vh;
+}
+
+.sct2 ul li {
+    margin-top: 1.25vh;
+    list-style: none;
+}
+
+.sct2 img {
+    border-radius: 10px;
+    height: 100%;
+}
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* & --------------------------------------------------------------------------SECTION 3 THEATHRE  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+.folder {
+    max-width: 1592px;
+    color: #fff;
+    padding-top: 50px;
+    height: 90vh;
+    margin-left: 10vh;
+}
+    
+.folder h3 {
+    font-size: 90%;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.folder p {
+    line-height: 1.4em;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.folder a {
+    text-decoration: none;
+}
+
+  /********** TABS **********/
+.tab-list {
+    margin: 0;
+    padding: 0;
+}
+
+.tab-list li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #303030;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.tab-list li a {
+    color: #f2f2f2;
+    display: block;
+    padding: 8px;
+}
+
+.tab-list li.active, .tab-list li.hover {
+    background-color: #446588;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tab-list li.active a, .tab-list li a:hover {
+    color: #fff;
+    background-color: #446588;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.tab-panel {
+    display: none;
+    background-color: #446588;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: #fff;
+    min-height: 150px;
+    overflow: auto;
+    height: 60vh;
+    padding: 2vh;
+}
+    
+
+.tab-panel.active {
+    display: block;
+    display: flex;
+    height: 70vh;
+
+}
+
+.folder #tab-1 img {
+    width: 57%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.folder #tab-2 img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.folder #tab-3 img {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.folder #tab-4 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.folder #tab-5 img {
+  width: 60%;
+  border-radius: 10px;
+}
+.folder #tab-6 img {
+  width: 55%;
+  border-radius: 10px;
+}
+.folder #tab-7 img {
+  width: 55%;
+  border-radius: 10px;
+}
+
+.tab-panel p {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* & --------------------------------------------------------------------------SECION 4 DIAPO MONUMENT  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+.diapo,
+.diapo:before,
+.diapo:after {
+  box-sizing: border-box;
+}
+.monuments {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    justify-content: center;
+}
+.monuments h1 {
+    font-size: 4em;
+    margin-left: 46vh;
+    margin-bottom: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: .5px .5px 1px black;
+}
+.diapo {
+	display: flex;
+	padding: 2vh;
+	margin-top: 1vh;
+	margin-bottom: 3vh;
+}
+.diapo2 {
+	display: flex;
+	padding: 2vh;
+	margin-top: 1vh;
+	margin-bottom: 3vh;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.intro {
+  position: relative;
+  min-height: 300px;
+  height: 100%;
+  width: 100%;
+  background: transparent url('images-histoire/abbaye-saint-victor-de-marseille-16.jpg') top center no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  transition: all .72s ease-in-out;
+}
+
+.intro:after {
+  content: '';
+  display: block;
+  position: absolute;
+  /* width: 100%; */
+  height: 500px;
+  right: -100%;
+  left: 0;
+  transform: skew(100deg);
+  background: #fff;
+  bottom: -70%;
+  box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+.intro2 {
+	position: relative;
+	min-height: 300px;
+	height: 100%;
+	width: 100%;
+	background: transparent url('images-histoire/cathedrale-major-monument-visite-tourisme.jpg') top center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all .72s ease-in-out;
+}
+  
+.intro2:after {
+	content: '';
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+	height: 500px;
+	right: -100%;
+	left: 0;
+	transform: skew(100deg);
+	background: #fff;
+	bottom: -70%;
+	box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+.intro3 {
+	position: relative;
+	min-height: 300px;
+	height: 100%;
+	width: 100%;
+	background: transparent url('images-histoire/Chateau.jpg') top center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all .72s ease-in-out;
+}
+  
+.intro3:after {
+	content: '';
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+	height: 500px;
+	right: -100%;
+	left: 0;
+	transform: skew(100deg);
+	background: #fff;
+	bottom: -70%;
+	box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+.intro4 {
+	position: relative;
+	min-height: 300px;
+	height: 100%;
+	width: 100%;
+	background: transparent url('images-histoire/chateau-de-la-buzine.jpg') top center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all .72s ease-in-out;
+}
+  
+.intro4:after {
+	content: '';
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+	height: 500px;
+	right: -100%;
+	left: 0;
+	transform: skew(100deg);
+	background: #fff;
+	bottom: -70%;
+	box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+.intro5 {
+	position: relative;
+	min-height: 300px;
+	height: 100%;
+	width: 100%;
+	background: transparent url('images-histoire/Marseille_-_Fort_Saint-Jean_16.jpg') top center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all .72s ease-in-out;
+}
+  
+.intro5:after {
+	content: '';
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+	height: 500px;
+	right: -100%;
+	left: 0;
+	transform: skew(100deg);
+	background: #fff;
+	bottom: -70%;
+	box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+.intro6 {
+	position: relative;
+	min-height: 300px;
+	height: 100%;
+	width: 100%;
+	background: transparent url('images-histoire/notre-dame-Achraf-Gauss-1.jpg') top center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all .72s ease-in-out;
+}
+  
+.intro6:after {
+	content: '';
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+	height: 500px;
+	right: -100%;
+	left: 0;
+	transform: skew(100deg);
+	background: #fff;
+	bottom: -70%;
+	box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+.intro7 {
+	position: relative;
+	min-height: 300px;
+	height: 100%;
+	width: 100%;
+	background: transparent url('images-histoire/cite-radieuse-6.png') top center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all .72s ease-in-out;
+}
+  
+.intro7:after {
+	content: '';
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+	height: 500px;
+	right: -100%;
+	left: 0;
+	transform: skew(100deg);
+	background: #fff;
+	bottom: -70%;
+	box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+.intro8 {
+	position: relative;
+	min-height: 300px;
+	height: 100%;
+	width: 100%;
+	background: transparent url('images-histoire/https___hypebeast.com_wp-content_blogs.dir_11_files_2018_06_stade_velodrome-marseille.jpg') top center no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all .72s ease-in-out;
+}
+  
+.intro8:after {
+	content: '';
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+	height: 500px;
+	right: -100%;
+	left: 0;
+	transform: skew(100deg);
+	background: #fff;
+	bottom: -70%;
+	box-shadow: inset 1px 0px 5px 0px rgba(204, 204, 204, 0.72);
+}
+
+.container:after {
+  content: '';
+  max-width: 300px;
+  width: 100%;
+  margin: 0% auto 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top:0;
+  right: 0;
+  box-shadow: 0px 5px 5px 0px rgba(204, 204, 204, 0.72);
+  z-index: -1;
+  transition: all .52s ease-in-out;
+}
+
+.meta {
+  max-width: 300px;
+  width: 100%;
+  margin: 0% auto 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  padding-top: 110px;
+  overflow: hidden;
+  transition: all .52s ease-in-out;
+}
+
+.meta__inner {
+  padding: .25rem 1rem;
+  line-height: 1.5rem;
+  position: relative;  
+  background: #fff;
+  z-index: 15;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.meta:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 80px;
+  max-width: 300px;
+  height: 300px;
+  background: #fff;
+  border: 1px solid #ccc;
+  transform: rotate(90deg) skew(10deg);
+  z-index: 4;
+}
+
+h3 {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-left: 4px solid #e91e63;
+    padding-left: .72rem;  
+}
+
+p {
+  font-family: serif;
+  font-size: .85rem;
+  font-weight: inherit;
+  color: #555;
+  text-align: justify;
+}
+
+p a {
+  color: #e91e63;
+  text-decoration: none;
+  opacity: .72;
+  
+  transition: all .27s ease-in-out;
+}
+
+p a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.container:hover .meta{
+  transform: translateY(5px);
+}
+
+.container:hover .intro {
+  transform: translateY(-5px);
+}
+
+.container:hover:after {
+  transform: translateY(5px);
+}
+
+
